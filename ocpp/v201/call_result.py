@@ -391,7 +391,7 @@ class StatusNotification:
 
 @dataclass
 class TransactionEvent:
-    total_cost: Optional[int] = None
+    total_cost: Optional[float] = None
     charging_priority: Optional[int] = None
     id_token_info: Optional[datatypes.IdTokenInfoType] = None
     updated_personal_message: Optional[datatypes.MessageContentType] = None
